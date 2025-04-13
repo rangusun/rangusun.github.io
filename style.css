@@ -70,9 +70,10 @@ body {
   p {
     display: flex;
     justify-content: center;
-    text-align:justify;
+    text-align:left;
     padding: 1rem;
     font-family: "Roboto", sans-serif;
+    font-size:large;
     font-weight: 400;
   }
 
