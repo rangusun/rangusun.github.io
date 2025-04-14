@@ -17,11 +17,35 @@
           <a href="tutorial.html">Tutorial</a>
         </div>
     </nav>
-
-    <h1>Technologies</h1>
-
-    <p>
-      This is a simple plain-HTML website on GitLab Pages, without any fancy static site generator.
-    </p>
+    <div class="tech-container-outer">
+      <div class="tech-container">
+        <h1>Technologies</h1>
+        <h2>Front-End Technologies</h2>
+        <div class="tech-logos">
+          <a href="https://reactnative.dev/">
+            <img src="https://reactnative.dev/img/header_logo.svg"/>
+          </a>
+        </div>
+        <p>Our front-end application is written in Typescript, powered by React Native and the Expo framework. 
+          This means that it is suitable for both Android and iOS devices.</p>
+        <h3>Notable Libraries</h3>
+        <ul>
+          <li><a href="https://github.com/howljs/react-native-calendar-kit">CalendarKit by howljs</a></li>
+          <li><a href="https://www.npmjs.com/package/react-native-calendars">React Native Calendars by Tautvilas Mecinskaas and Katrin Zotchevv</a></li>
+        </ul>
+        <h2>Back-End Technologies</h2>
+        <div class="tech-logos">
+          <a href="https://www.python.org/">
+            <img src="https://www.python.org/static/img/python-logo.png"/>
+          </a>
+        </div>
+        <p>
+          Our back-end is built with FastAPI and interacts directly with a PostgreSQL database to manage user data. It supports authentication, 
+          task management, and real-time updates to user schedules through a RESTful API. A lightweight machine learning model runs on the backend
+           to rank tasks based on user habits, due dates, and priorities. 
+        </p>
+        <a href="https://scheduleme.duckdns.org/docs">Our app's back-end API can be found here.</a>
+      </div>
+    </div>
   </body>
 </html>
