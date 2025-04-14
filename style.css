@@ -50,6 +50,41 @@ body {
     height: auto;
   }
   
+  .tutorial-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2rem 0;
+    gap: 2rem;
+  }
+
+  .section-divider {
+    width: 200px;
+    height: 3px;
+    background-color: #00B4D8;
+    border: none;
+    margin: 0.5rem auto 1rem;
+    border-radius: 4px;
+  }
+
+  .tutorial-image {
+    height: auto;
+    width: 175px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #aaa;
+  }
+
+  .tutorial-text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tutorial-text {
+    margin: 0.5rem 0;
+  }
+  
+  
   h1 {
     display: flex;
     justify-content: center;
@@ -60,22 +95,19 @@ body {
   }
 
   h2 {
-    display: flex;
-    justify-content: center;
     text-align: center;
     font-family: "DM Sans", sans-serif;
     font-weight: 600;
   }
 
   p {
-    display: flex;
-    justify-content: center;
-    text-align:left;
+    text-align: left;
     padding: 1rem;
     font-family: "Roboto", sans-serif;
-    font-size:large;
+    font-size: large;
     font-weight: 400;
   }
+
 
   @media (max-width: 768px) {
     .navbar {
